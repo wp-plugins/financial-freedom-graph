@@ -3,10 +3,11 @@
 Plugin Name: Financial Freedom Graph
 Plugin URI: http://learnfinancialplanning.com
 Description: Chart your path to financial freedom by setting and achieving your public goals.
-Author: Sprout Venture
-Version: .09
-Stable tag: .09
-Author URI: http://sproutventure.com
+Author: Learn Financial Planning
+Version: 1.0
+Stable tag: 1.0
+Author URI: http://learnfinancialplanning.com
+Development: All development provided by Sprout Venture @ http://sproutventure.com
 Support: https://redmine.sproutventure.com
 Tags: financial, graphs, weight-loss, widget, money, seo
 
