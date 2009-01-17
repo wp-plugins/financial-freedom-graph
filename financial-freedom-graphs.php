@@ -4,8 +4,8 @@ Plugin Name: Financial Freedom Graph
 Plugin URI: http://learnfinancialplanning.com
 Description: Chart your path to financial freedom by setting and achieving your public goals.
 Author: Learn Financial Planning
-Version: 1.0
-Stable tag: 1.0
+Version: 1.01
+Stable tag: 1.01
 Author URI: http://learnfinancialplanning.com
 Development: All development provided by Sprout Venture @ http://sproutventure.com
 Support: https://redmine.sproutventure.com
@@ -31,6 +31,8 @@ Notes:
 
 Version history:
 
+1.01 minor tweak for decimals
+1.0 Public Release
 .9 UI changes and ready for release
 .6 Bug Fix and updated descriptions
 .5 Pre-release version ready for testing
@@ -90,8 +92,8 @@ class Goals {
         if (!isset($options_all[$number]))
             return;
         $options = $options_all[$number];
-		$goal_output		= ereg_replace("[^A-Za-z0-9]", "", $options["graph_goal"] );
-		$update_output		= ereg_replace("[^A-Za-z0-9]", "", $options["graph_update"] );
+		$goal_output		= ereg_replace("[^a-zA-Z0-9_-]", "", $options["graph_goal"] );
+		$update_output		= ereg_replace("[^a-zA-Z0-9_-]", "", $options["graph_update"] );
         echo $before_widget . $before_title;
         echo $options["title"] . $after_title;
 		include("graph-template.php");

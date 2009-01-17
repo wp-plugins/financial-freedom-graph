@@ -26,6 +26,8 @@ Create multiple graphs in your sidebar with this plugin. Track personal and fina
 	* Bar Background Color => the bar background color. Example, red or #FF0000 (Use HEX colors or CSS color names only - http://www.w3schools.com/CSS/css_colornames.asp)
 5. Have fun and succeed at your goals!
 
+
+**Note: Decimals can be used. However, both "The Goal" and "Currently" need to have the same decimal count. For example, Goal=$2,000 and Currently:$234.32 is NOT valid--Goal=$2,000.00 and Currently:$234.32 IS valid.
 == Screenshots ==
 
 1. Example Charts

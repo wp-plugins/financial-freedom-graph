@@ -16,12 +16,12 @@
 	margin: 0;
 	font-weight: bold; 
 	text-align: left; 
-	font-size: .9em; 
 }
-#goalgraph .ad { 
+#goalgraph .ad, #goalgraph .ad a { 
 	margin: 0; 
 	text-align: right; 
-	font-size: .8em; 
+	font-size: 9px;
+	color: #666;
 }
 </style>
 
@@ -41,7 +41,7 @@
 	</div> <!-- // .goal -->
 	
 	<!-- Start sponsored by link -->
-	<p class="ad">Financial Freedom Widget provided by <a href="http://learnfinancialplanning.com" title="Learn Financial Planning">Learn Financial Planning</a>.</p>
+	<p class="ad"><a href="http://wordpress.org/extend/plugins/financial-freedom-graph/" title="Download the Financial Freedom Widget" >Widget</a> by <a href="http://learnfinancialplanning.com" title="Learn Financial Planning">Financial Planning</a>.</p>
 	<!-- // Start sponsored by link -->
 	
 </div> <!-- // .goalgraph -->
