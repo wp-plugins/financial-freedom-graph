@@ -1,7 +1,17 @@
 <style>
 /*
-	Use this template to modify and style your graphs.	
-	*/
+	Use this template to modify and style your graphs.
+	
+IMPORTANT:
+
+	We'd appreciate it if you'd leave the link back to our site in tact,
+	though you can certainly remove it if you wish. The extra traffic 
+	can help us compensate for the time spent providing the theme to 
+	you for free  win-win! Thanks. 
+
+	I really do appreciate it. :)
+
+*/
 	
 #goalgraph .goal {  
 	width:100%; 
@@ -17,7 +27,7 @@
 	font-weight: bold; 
 	text-align: left; 
 }
-#goalgraph .sponsor, #goalgraph .sponsor a { 
+#goalgraph .appreciation, #goalgraph .appreciation a { 
 	margin: 0; 
 	text-align: right; 
 	font-size: 9px;
@@ -40,8 +50,6 @@
 		</div> <!-- // .progress --><!-- // End Chart -->
 	</div> <!-- // .goal -->
 	
-	<!-- Start sponsored by link -->
-	<p class="sponsor"><a href="http://wordpress.org/extend/plugins/financial-freedom-graph/" title="Download the Financial Freedom Widget" >Widget</a> by <a href="http://learnfinancialplanning.com" title="Personal Financial Planning">Financial Planning</a>.</p>
-	<!-- // Start sponsored by link -->
+	<p class="appreciation"><a href="http://wordpress.org/extend/plugins/financial-freedom-graph/" title="Download the Financial Freedom Widget" >Widget</a> by <a href="http://learnfinancialplanning.com" title="Personal Financial Planning">Financial Planning</a>.</p>
 	
 </div> <!-- // .goalgraph -->

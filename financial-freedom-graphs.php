@@ -4,8 +4,8 @@ Plugin Name: Financial Freedom Graph
 Plugin URI: http://learnfinancialplanning.com
 Description: Chart your path to financial freedom by setting and achieving your public goals.
 Author: Learn Financial Planning
-Version: 1.011
-Stable tag: 1.011
+Version: 1.012
+Stable tag: 1.012
 Author URI: http://learnfinancialplanning.com
 Development: All development provided by Sprout Venture @ http://sproutventure.com
 Support: https://redmine.sproutventure.com
